@@ -50,40 +50,24 @@ class MyApp extends StatelessWidget {
                   
 
                   Column(
-                    children: [
-                      Image.asset(
-                        'assets/images/cal.png',
-                        height: 40,
-                        width: 40,  
+                    children: const [
+                      Icon(
+                        Icons.cookie,
+                        size: 40,
                       ),
-                      const Text("Cooking"),
+                      Text("Cooking"),
                     ],
                   ),
 
 
 
                   Column(
-                    children: [
-                      Image.asset(
-                        'assets/images/cal.png',
-                        height: 40,
-                        width: 40,  
+                    children: const [
+                      Icon(
+                        Icons.mail,
+                        size: 40,
                       ),
-                      const Text("Math"),
-                    ],
-                  ),
-
-
-
-
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/images/cal.png',
-                        height: 40,
-                        width: 40,  
-                      ),
-                      const Text("Biology"),
+                      Text("Math"),
                     ],
                   ),
 
@@ -91,13 +75,25 @@ class MyApp extends StatelessWidget {
 
 
                   Column(
-                    children: [
-                      Image.asset(
-                        'assets/images/cal.png',
-                        height: 40,
-                        width: 40,  
+                    children: const [
+                      Icon(
+                        Icons.biotech,
+                        size: 40,
                       ),
-                      const Text("Design"),
+                      Text("Biology"),
+                    ],
+                  ),
+
+
+
+
+                  Column(
+                    children: const [
+                      Icon(
+                        Icons.description,
+                        size: 40,
+                      ),
+                      Text("Design"),
                     ],
                   ),
 
@@ -160,10 +156,9 @@ class MyApp extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Image.asset(
-                          'assets/images/cal.png',
-                          height: 40,
-                          width: 40,  
+                        const Icon(
+                          Icons.cookie,
+                          size: 40,
                         ),
                         Container(
                           padding: const EdgeInsets.only(top: 10),
@@ -203,10 +198,9 @@ class MyApp extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Image.asset(
-                          'assets/images/cal.png',
-                          height: 40,
-                          width: 40,  
+                        const Icon(
+                          Icons.biotech,
+                          size: 40,
                         ),
                         Container(
                           padding: const EdgeInsets.only(top: 10),
@@ -322,9 +316,10 @@ class MyApp extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(right: 20),
                               child:
-                                Image.asset('assets/images/clock.png',
-                                height: 40,
-                                width: 40,),
+                                const Icon(
+                                  Icons.design_services,
+                                  size: 40,
+                                ),
                             ),
 
 
@@ -386,9 +381,10 @@ class MyApp extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(right: 20),
                               child:
-                                Image.asset('assets/images/clock.png',
-                                height: 40,
-                                width: 40,),
+                                const Icon(
+                                  Icons.mobile_friendly,
+                                  size: 40,
+                                ),
                             ),
 
 
@@ -452,9 +448,10 @@ class MyApp extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(right: 20),
                               child:
-                                Image.asset('assets/images/clock.png',
-                                height: 40,
-                                width: 40,),
+                                const Icon(
+                                  Icons.integration_instructions,
+                                  size: 40,
+                                ),
                             ),
 
 
